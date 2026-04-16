@@ -1,1 +1,121 @@
+# 📧 Email Automation Bot using n8n
+
+## 🚀 Project Overview
+
+This project is a simple **workflow automation system** built using **n8n**. It demonstrates how to automate tasks by connecting nodes and sending data between them.
+
+The current workflow:
+
+* Manually triggers execution
+* Generates a message
+* Stores the data in Google Sheets
+
+---
+
+## 🛠️ Tech Stack
+
+* n8n (Workflow Automation Tool)
+* Node.js
+* Google Sheets API
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Install Node.js
+
+Download and install from: https://nodejs.org
+
+### 2. Install n8n
+
+```bash
+npm install n8n -g
+```
+
+### 3. Start n8n
+
+```bash
+n8n start
+```
+
+### 4. Open n8n UI
+
+Go to:
+
+```
+http://localhost:5678
+```
+
+---
+
+## 🧩 Workflow Steps
+
+1. **Manual Trigger Node**
+
+   * Starts the workflow manually
+
+2. **Set Node**
+
+   * Creates a message:
+
+   ```
+   Hello Khushboo
+   ```
+
+3. **Google Sheets Node**
+
+   * Appends data to a Google Sheet
+   * Stores:
+
+     * Name
+     * Message
+
+---
+
+## 📊 Google Sheets Structure
+
+| Name     | Message        |
+| -------- | -------------- |
+| Khushboo | Hello Khushboo |
+
+---
+
+## ▶️ How to Run
+
+1. Click **Execute Workflow**
+2. Check output in n8n
+3. Open Google Sheets to verify data is added
+
+---
+
+## 🎯 Features
+
+* Beginner-friendly workflow automation
+* Real-time data transfer to Google Sheets
+* No coding required (low-code tool)
+
+---
+
+## 🔮 Future Improvements
+
+* Integrate Gmail Trigger
+* Add email classification using AI
+* Auto-reply to emails
+* Add Telegram/Slack notifications
+
+---
+
+## 🧠 Learning Outcome
+
+* Understanding of workflow automation
+* Hands-on with n8n nodes
+* API integration basics
+
+---
+
+## 📌 Conclusion
+
+This project demonstrates how automation tools like n8n can simplify repetitive tasks and integrate multiple services with minimal effort.
+
+---
 
