@@ -2,13 +2,11 @@
 
 ## 🚀 Project Overview
 
-This project is a simple **workflow automation system** built using **n8n**. It demonstrates how to automate tasks by connecting nodes and sending data between them.
+This project demonstrates a simple **workflow automation system** built using **n8n**. It automates data flow by connecting nodes and storing results in Google Sheets.
 
-The current workflow:
+### 🔄 Workflow:
 
-* Manually triggers execution
-* Generates a message
-* Stores the data in Google Sheets
+* Manual Trigger → Generate Data → Store in Google Sheets
 
 ---
 
@@ -17,6 +15,7 @@ The current workflow:
 * n8n (Workflow Automation Tool)
 * Node.js
 * Google Sheets API
+* OAuth 2.0 Authentication
 
 ---
 
@@ -24,7 +23,7 @@ The current workflow:
 
 ### 1. Install Node.js
 
-Download and install from: https://nodejs.org
+Download from: https://nodejs.org
 
 ### 2. Install n8n
 
@@ -40,8 +39,6 @@ n8n start
 
 ### 4. Open n8n UI
 
-Go to:
-
 ```
 http://localhost:5678
 ```
@@ -52,11 +49,11 @@ http://localhost:5678
 
 1. **Manual Trigger Node**
 
-   * Starts the workflow manually
+   * Starts the workflow execution
 
 2. **Set Node**
 
-   * Creates a message:
+   * Generates a message:
 
    ```
    Hello Khushboo
@@ -80,42 +77,59 @@ http://localhost:5678
 
 ---
 
+## 📸 Screenshots
+
+
+
+### 🔹 Google Sheets Result
+
+---
+
 ## ▶️ How to Run
 
-1. Click **Execute Workflow**
-2. Check output in n8n
-3. Open Google Sheets to verify data is added
+1. Import the workflow JSON into n8n
+2. Connect your Google account (OAuth setup)
+3. Click **Execute Workflow**
+4. Check Google Sheets for stored data
 
 ---
 
 ## 🎯 Features
 
-* Beginner-friendly workflow automation
-* Real-time data transfer to Google Sheets
-* No coding required (low-code tool)
+* Beginner-friendly automation workflow
+* Google Sheets integration
+* Secure OAuth authentication
+* Real-time data processing
 
 ---
 
 ## 🔮 Future Improvements
 
-* Integrate Gmail Trigger
-* Add email classification using AI
-* Auto-reply to emails
-* Add Telegram/Slack notifications
+* 📧 Gmail automation (auto-read emails)
+* 🤖 AI-based email classification
+* 🔔 Notifications via Telegram/Slack
+* 📊 Dashboard for data visualization
 
 ---
 
-## 🧠 Learning Outcome
+## 🧠 Learning Outcomes
 
-* Understanding of workflow automation
+* Understanding workflow automation
 * Hands-on with n8n nodes
-* API integration basics
+* API integration using Google services
+* OAuth authentication setup
+
+---
+
+## 💼 Resume Highlight
+
+> Built an automated workflow using n8n to process and store structured data in Google Sheets using OAuth-secured API integration.
 
 ---
 
 ## 📌 Conclusion
 
-This project demonstrates how automation tools like n8n can simplify repetitive tasks and integrate multiple services with minimal effort.
+This project demonstrates how automation tools like n8n can simplify repetitive tasks and integrate multiple services efficiently with minimal coding.
 
 ---
 
