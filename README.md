@@ -78,7 +78,8 @@ http://localhost:5678
 ---
 
 ## 📸 Screenshots
-C:\Users\LENOVO\OneDrive\Documents\Pictures\Screenshots 1\Screenshot 2026-04-18 235230.png
+<img width="1848" height="967" alt="Screenshot 2026-04-18 235230" src="https://github.com/user-attachments/assets/ccc4cd2f-a351-465d-a1e2-33f66eb1aab1" />
+
 
 
 ### 🔹 Google Sheets Result
